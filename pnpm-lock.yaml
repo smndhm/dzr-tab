@@ -13,6 +13,9 @@ importers:
       '@dzr-tab/deezer-api':
         specifier: workspace:*
         version: link:../../packages/deezer-api
+      '@fontsource-variable/inter':
+        specifier: ^5.2.8
+        version: 5.2.8
       node-vibrant:
         specifier: ^4.0.4
         version: 4.0.4
@@ -238,6 +241,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/inter@5.2.8':
+    resolution: {integrity: sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ==}
 
   '@jimp/bmp@0.22.12':
     resolution: {integrity: sha512-aeI64HD0npropd+AR76MCcvvRaa+Qck6loCOS03CkkxGHN5/r336qTM5HPUdHKMDOGzqknuVPA8+kK1t03z12g==}
@@ -2126,6 +2132,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.12':
     optional: true
+
+  '@fontsource-variable/inter@5.2.8': {}
 
   '@jimp/bmp@0.22.12(@jimp/custom@0.22.12)':
     dependencies:

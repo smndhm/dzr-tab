@@ -1,3 +1,4 @@
+import '@fontsource-variable/inter/wght.css';
 import { Vibrant } from 'node-vibrant/browser';
 import {
   fetchTracks,
