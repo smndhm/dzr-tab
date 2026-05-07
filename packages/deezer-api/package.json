@@ -1,0 +1,12 @@
+{
+  "name": "@dzr-tab/deezer-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared Deezer API client for dzr-tab extensions",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
