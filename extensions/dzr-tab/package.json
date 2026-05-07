@@ -4,6 +4,7 @@
   "private": true,
   "description": "Discover a Deezer track every time you open a new tab.",
   "scripts": {
+    "icons": "node scripts/generate-icons.mjs",
     "dev": "wxt",
     "dev:firefox": "wxt -b firefox",
     "build": "pnpm build:chrome && pnpm build:firefox",
@@ -17,6 +18,7 @@
     "node-vibrant": "^4.0.4"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "typescript": "^5.5.0",
     "wxt": "^0.19.0"
   }
