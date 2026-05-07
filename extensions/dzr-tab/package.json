@@ -1,0 +1,22 @@
+{
+  "name": "@dzr-tab/dzr-tab",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Discover a Deezer track every time you open a new tab.",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "pnpm build:chrome && pnpm build:firefox",
+    "build:chrome": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip && wxt zip -b firefox"
+  },
+  "dependencies": {
+    "@dzr-tab/deezer-api": "workspace:*",
+    "node-vibrant": "^4.0.4"
+  },
+  "devDependencies": {
+    "wxt": "^0.19.0",
+    "typescript": "^5.5.0"
+  }
+}

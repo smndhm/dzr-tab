@@ -1,0 +1,8 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@dzr-tab/deezer-api": ["../../packages/deezer-api/src/index.ts"]
+    }
+  }
+}
